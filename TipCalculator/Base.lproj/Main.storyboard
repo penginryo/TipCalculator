@@ -54,16 +54,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIG-JI-ar4">
-                                <rect key="frame" x="400" y="269" width="52" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="8xV-OV-ih1"/>
-                                    <constraint firstAttribute="width" constant="52" id="juS-uG-Rx1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(0%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxf-Wb-0Ps">
                                 <rect key="frame" x="417" y="222" width="35" height="28"/>
                                 <constraints>
@@ -79,12 +69,23 @@
                                     <action selector="valueSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="w7Y-ze-DnX"/>
                                 </connections>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIG-JI-ar4">
+                                <rect key="frame" x="380" y="269" width="44" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="8xV-OV-ih1"/>
+                                    <constraint firstAttribute="width" constant="44" id="juS-uG-Rx1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Bxf-Wb-0Ps" firstAttribute="leading" secondItem="JfA-c9-hkN" secondAttribute="trailing" constant="8" id="1AP-d6-6WK"/>
-                            <constraint firstItem="KXC-r4-MhW" firstAttribute="leading" secondItem="lIG-JI-ar4" secondAttribute="trailing" constant="83" id="1iY-Ku-ZC2"/>
+                            <constraint firstItem="KXC-r4-MhW" firstAttribute="leading" secondItem="lIG-JI-ar4" secondAttribute="trailing" constant="111" id="1iY-Ku-ZC2"/>
                             <constraint firstItem="Bxf-Wb-0Ps" firstAttribute="top" secondItem="Tg4-93-YcJ" secondAttribute="bottom" constant="8" id="1m1-PA-CJx"/>
+                            <constraint firstItem="lIG-JI-ar4" firstAttribute="leading" secondItem="JfA-c9-hkN" secondAttribute="leading" id="2uz-5g-31o"/>
                             <constraint firstItem="Tg4-93-YcJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="BNb-im-BQi"/>
                             <constraint firstItem="p3j-SC-cWX" firstAttribute="top" secondItem="Tg4-93-YcJ" secondAttribute="bottom" constant="8" id="SOh-nT-PbN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="p3j-SC-cWX" secondAttribute="trailing" id="WnP-8J-YA6"/>
