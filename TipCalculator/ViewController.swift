@@ -33,6 +33,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
 	func textFieldDidBeginEditing(textField: UITextField) {
 		inputField.text = ""
+		tipValue.text = "$0.00"
+		totalValue.text = "$0.00"
+		
 	}
 	
 	func textFieldDidEndEditing(textField: UITextField) {
